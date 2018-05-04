@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Fotogalerie</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<h1>Fotogalerie</h1>
+
+	<div class="galerie">
+
+		<img onclick="predchoziObrazek()" class="doleva" src="obrazky/husa.jpg">
+
+		<div class="ramecek">
+			<img id="foto" src="obrazky/husa.jpg" alt="Historické dílo nesmírného kulturního významu">
+		</div>
+
+		<img onclick="dalsiObrazek()" class="doprava" src="obrazky/opice.jpg">
+
+	</div>
+
+	<div id="pocitadlo"></div>
+	
+	<div id="sadaObrazku"></div>
+	
+	<script src="main.js"></script>
+</body>
+
+</html>
