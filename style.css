@@ -75,7 +75,9 @@ h1 {
 }
 
 #sadaObrazku img {
-	display: inline-block;
+	display: inline-flex;
+	flex-wrap: wrap;
 	max-width: 200px;
 	margin-top: 30px;
+	justify-content: space-evenly;
 }
